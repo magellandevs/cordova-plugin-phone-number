@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin id="cordova-plugin-phonenumber"
         xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        xmlns:android="http://schemas.android.com/apk/res/android"
         version="1.0.0">
     <name>PhoneNumber</name>
     <description>Cordova Plugin to get phone number on Android</description>
-    <repo>https://github.com/magellandevs/CordovaCallNumberPlugin.git</repo>
-    <issue>https://github.com/magellandevs/CordovaCallNumberPlugin/issues</issue>
-    <keywords>cordova, phone number</keywords>
+    <license>Apache 2.0</license>
+    <keywords>cordova,phonenumber</keywords>
     <js-module src="www/PhoneNumber.js" name="PhoneNumber">
         <clobbers target="cordova.plugins.phonenumber" />
     </js-module>

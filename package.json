@@ -1,0 +1,27 @@
+{
+  "name": "phone-number",
+  "version": "1.0.O",
+  "description": "Cordova Plugin to get phone number on Android",
+  "cordova": {
+    "id": "cordova-plugin-phonenumber",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magellandevs/cordova-plugin-phone-number.git"
+  },
+  "keywords": [
+    "cordova",
+    "phonenumber",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "+https://github.com/magellandevs/cordova-plugin-phone-number.git/issues"
+  },
+  "homepage": "+https://github.com/magellandevs/cordova-plugin-phone-number.git#readme"
+}
