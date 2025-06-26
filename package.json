@@ -1,6 +1,6 @@
 {
   "name": "phone-number",
-  "version": "1.0.O",
+  "version": "1.0.1",
   "description": "Cordova Plugin to get phone number on Android",
   "cordova": {
     "id": "cordova-plugin-phonenumber",
