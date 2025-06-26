@@ -1,11 +1,7 @@
-var CallNumber = function(){};
+var PhoneNumber = function(){};
 
-CallNumber.prototype.callNumber = function(success, failure, number, bypassAppChooser){
-    cordova.exec(success, failure, "CallNumber", "callNumber", [number, bypassAppChooser]);
-};
-
-CallNumber.prototype.isCallSupported = function(success, failure){
-    cordova.exec(success, failure, "CallNumber", "isCallSupported");
+PhoneNumber.prototype.getPhoneNumber = function(success, failure, number, bypassAppChooser){
+    cordova.exec(success, failure, "PhoneNumber", "getPhoneNumber", [number, bypassAppChooser]);
 }
 
 //Plug in to Cordova
@@ -16,5 +12,5 @@ cordova.addConstructor(function() {
     };
 
     if(!window.plugins) window.plugins = {};
-    window.plugins.CallNumber = new CallNumber();
+    window.plugins.PhoneNumber = new PhoneNumber();
 });
